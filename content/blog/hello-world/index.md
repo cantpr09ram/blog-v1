@@ -229,3 +229,18 @@ This paragraph has some `code` in it.
 ![Alt Text](https://via.placeholder.com/200x50 "Image Title")
 
     ![Alt Text](https://via.placeholder.com/200x50 "Image Title")
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(void){
+    cout<<"hello world";
+    return 0;
+}
+```
+```python
+print('hello world')
+```
+```javascript
+console.log('hello world')
+```
