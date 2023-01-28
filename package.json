@@ -26,6 +26,7 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "prettier": "^2.8.3"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
@@ -38,6 +39,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
