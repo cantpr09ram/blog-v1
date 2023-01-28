@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Bochain's blog.]]></description><link>https://bochainwu.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Jan 2023 16:02:12 GMT</lastBuildDate><item><title><![CDATA[2022 Review]]></title><description><![CDATA[2022 archiment]]></description><link>https://bochainwu.github.io/2022 review/</link><guid isPermaLink="false">https://bochainwu.github.io/2022 review/</guid><pubDate>Sat, 28 Jan 2023 22:25:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Bochain's blog.]]></description><link>https://bochainwu.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Jan 2023 16:54:39 GMT</lastBuildDate><item><title><![CDATA[2022 Review]]></title><description><![CDATA[202…]]></description><link>https://bochainwu.github.io/2022 review/</link><guid isPermaLink="false">https://bochainwu.github.io/2022 review/</guid><pubDate>Sat, 28 Jan 2023 22:25:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -29,7 +29,20 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;2022 archiment&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[New Beginning - 一個新的開始]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+&lt;h1&gt;2022 解鎖的成就&lt;/h1&gt;
+&lt;h2&gt;學業&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;我上大學啦😀!雖然說我也不知道有什麼特別的地方。但是我感覺好像沒有特別的認真在讀書(而且沒有在學什麼其他的東西)😀。&lt;/li&gt;
+&lt;li&gt;我真的不知道在搞什麼，明明成績不是最好的，但是卻要上最多的課🤔。&lt;/li&gt;
+&lt;li&gt;下學期應該要開始卷了🤫(最好是)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;技術&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;程式方面就別說了，基本上除了寫學校的指派的作業其他的我幾乎都沒碰。一開始是因為電腦不行，後來就是懶了&lt;/li&gt;
+&lt;li&gt;我自己組了一台電腦，本來想買台 macbook air (垃圾蘋果真香🙃)，但是後來發現電機系好像離不開 windows  所以就自己組了一台。雙十一買了幾乎所有零件，沒想到組到一半翻車😨，CPU散熱器沒裝好所一散熱膏流到針腳的地方，好在有保固。簡單來說，一個有趣的經驗，學到很多知識，但是如果要無償幫別人組的話就要好好地考慮了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;./pc%20building.jpeg&quot; alt=&quot;pc_building&quot;&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[New Beginning - 一個新的開始]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://bochainwu.github.io/new-beginnings/</link><guid isPermaLink="false">https://bochainwu.github.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
