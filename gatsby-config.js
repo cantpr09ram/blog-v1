@@ -9,18 +9,22 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Bo-chain's Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Bo-chain`,
+      summary: `a uni student who lives, study and works in taipei. learning how to build some useful things.`,
+      age: 19
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Bochain's blog.`,
+    siteUrl: `https://bochainwu.github.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `bochianwu`,
+      instagram: `_bochain_`,
+      github: `bochainwu`
     },
   },
   plugins: [
+    `gatsby-plugin-emotion`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
