@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Bochain's blog.]]></description><link>https://bochainwu.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Jan 2023 17:10:30 GMT</lastBuildDate><item><title><![CDATA[2022 Review]]></title><description><![CDATA[202…]]></description><link>https://bochainwu.github.io/2022 review/</link><guid isPermaLink="false">https://bochainwu.github.io/2022 review/</guid><pubDate>Sat, 28 Jan 2023 22:25:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Bochain's blog.]]></description><link>https://bochainwu.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Feb 2023 17:01:04 GMT</lastBuildDate><item><title><![CDATA[2022 Review]]></title><description><![CDATA[…]]></description><link>https://bochainwu.github.io/2022 review/</link><guid isPermaLink="false">https://bochainwu.github.io/2022 review/</guid><pubDate>Sat, 28 Jan 2023 22:25:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -29,44 +29,39 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;2022 解鎖的成就&lt;/h1&gt;
-&lt;h2&gt;學業&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;我上大學啦😀!雖然說我也不知道有什麼特別的地方。但是我感覺好像沒有特別的認真在讀書(而且沒有在學什麼其他的東西)😀。&lt;/li&gt;
-&lt;li&gt;我真的不知道在搞什麼，明明成績不是最好的，但是卻要上最多的課🤔。&lt;/li&gt;
-&lt;li&gt;下學期應該要開始卷了🤫(最好是)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;技術&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;程式方面就別說了，基本上除了寫學校的指派的作業其他的我幾乎都沒碰。一開始是因為電腦不行，後來就是懶了&lt;/li&gt;
-&lt;li&gt;我自己組了一台電腦，本來想買台 macbook air (垃圾蘋果真香🙃)，但是後來發現電機系好像離不開 windows  所以就自己組了一台。雙十一買了幾乎所有零件，沒想到組到一半翻車😨，CPU散熱器沒裝好所一散熱膏流到針腳的地方，好在有保固。簡單來說，一個有趣的經驗，學到很多知識，但是如果要無償幫別人組的話就要好好地考慮了&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;span
+&lt;h3&gt;我上大學啦😀!&lt;/h3&gt;
+&lt;p&gt;雖然說我也不知道有什麼特別的地方。但是我感覺好像沒有特別的認真在讀書(而且沒有在學什麼其他的東西)😀。
+我真的不知道在搞什麼，明明成績不是最好的，但是卻要上最多的課🤔。下學期應該要開始卷了🤫(最好是)
+&lt;br&gt;&lt;/br&gt;
+程式方面就別說了，基本上除了寫學校的指派的作業其他的我幾乎都沒碰。一開始是因為電腦不行，後來就是懶了&lt;/p&gt;
+&lt;h3&gt;自己組了一台電腦&lt;/h3&gt;
+&lt;p&gt;我自己組了一台電腦，本來想買台 macbook air (垃圾蘋果真香🙃)，但是後來發現電機系好像離不開 windows  所以就自己組了一台。雙十一買了幾乎所有零件，沒想到組到一半翻車😨，CPU散熱器沒裝好所以散熱膏流到針腳的地方，好在有保固。簡單來說，一個有趣的經驗，學到很多知識，但是如果要無償幫別人組的話就要好好地考慮了。
+&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c3999a556fc9e2b37f1746b3e564ce65/01f5f/pc_building.jpg&quot;
+    href=&quot;/static/68440486b3c5fa2ba88c5e97cd73b153/01f5f/pc_building.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwABBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAEU5NgJo//EABoQAQEAAgMAAAAAAAAAAAAAAAIBAwQREhP/2gAIAQEAAQUCzVGBRy675SCh6m+tt//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AUf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAABBQEAAAAAAAAAAAAAAAAAAQIRITEi/9oACAEBAAY/AkhYMsqDpzhGrpzh/8QAGhAAAwEBAQEAAAAAAAAAAAAAAAERQSFhgf/aAAgBAQABPyGbFPB6jcaaB9Ey5+DtTlujcUP/2gAMAwEAAgADAAAAENz/AP/EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxBKlH//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QXLS//8QAHBABAQACAgMAAAAAAAAAAAAAAREAITFBcaHh/9oACAEBAAE/EKuiWOvORNkLBvXzKgBNXTJM6hE564xRqQAdXfPrGB4ZXvP/2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 63.291139240506325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHNeTHMMj//xAAaEAADAQADAAAAAAAAAAAAAAABAhIAAxEU/9oACAEBAAEFAufsZHseY5kWVE5nNf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIDAAMAAAAAAAAAAAAAAAABAhEhEEGB/9oACAEBAAY/AlrH0zJFtX6Q4//EABoQAQADAQEBAAAAAAAAAAAAAAEAETFxQWH/2gAIAQEAAT8hantKMh02LLRX0jUpBrAgb5LIHJ//2gAMAwEAAgADAAAAEBj/AP/EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxBKkP/EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxBuFP/EABkQAQEBAQEBAAAAAAAAAAAAAAERACFRMf/aAAgBAQABPxAhJKwwfNVXHKXo+m4ATOg5XH4i7zIaTzuIpBQDf//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;pc_building&quot;
         title=&quot;&quot;
-        src=&quot;/static/c3999a556fc9e2b37f1746b3e564ce65/828fb/pc_building.jpg&quot;
-        srcset=&quot;/static/c3999a556fc9e2b37f1746b3e564ce65/ff44c/pc_building.jpg 158w,
-/static/c3999a556fc9e2b37f1746b3e564ce65/a6688/pc_building.jpg 315w,
-/static/c3999a556fc9e2b37f1746b3e564ce65/828fb/pc_building.jpg 630w,
-/static/c3999a556fc9e2b37f1746b3e564ce65/0ede0/pc_building.jpg 945w,
-/static/c3999a556fc9e2b37f1746b3e564ce65/3ac88/pc_building.jpg 1260w,
-/static/c3999a556fc9e2b37f1746b3e564ce65/01f5f/pc_building.jpg 2238w&quot;
+        src=&quot;/static/68440486b3c5fa2ba88c5e97cd73b153/828fb/pc_building.jpg&quot;
+        srcset=&quot;/static/68440486b3c5fa2ba88c5e97cd73b153/ff44c/pc_building.jpg 158w,
+/static/68440486b3c5fa2ba88c5e97cd73b153/a6688/pc_building.jpg 315w,
+/static/68440486b3c5fa2ba88c5e97cd73b153/828fb/pc_building.jpg 630w,
+/static/68440486b3c5fa2ba88c5e97cd73b153/0ede0/pc_building.jpg 945w,
+/static/68440486b3c5fa2ba88c5e97cd73b153/3ac88/pc_building.jpg 1260w,
+/static/68440486b3c5fa2ba88c5e97cd73b153/01f5f/pc_building.jpg 2238w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -74,7 +69,19 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[New Beginning - 一個新的開始]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+&lt;h3&gt;Devfest2022 Taipei&lt;/h3&gt;
+&lt;p&gt;這是我第一次參加這種活動，以前就很想參加類似的活動但是都沒有機會，這次總算參加到了。過程中認識了幾個有趣的人，還有跟google的工程師請教了一下，雖然說是一個無關緊要的問題，但是還是一個不同的體驗。&lt;/p&gt;
+&lt;h3&gt;自己建立了一個小專案&lt;/h3&gt;
+&lt;p&gt;今年的上半年，(也就是我的高三下)我把我大部分的時間透入這個side project。這是一個 web app，可以把學校的球具借還時資料的填寫線上化。本來會有個同學一起完成，但是後來他不想做了，所以我自己一個人學 HTML,CSS 後我就面臨沒有人開發後端的困境，還好我發現 Firebase，所以我就自己一個人慢慢摸索，最終我還是做了一個可以用的東西出來
+&lt;br&gt;&lt;/br&gt;
+雖然說這個東西還有很多東西可以優化，不管是技術面程式碼的優化，還是UI/UX方面都是有很大的進步空間，但是至少證明我可以利用程式做一個有用的東西出來
+&lt;br&gt;&lt;/br&gt;&lt;a href=&quot;https://github.com/bochainwu/ball-app&quot;&gt;&lt;img src=&quot;https://github-readme-stats.vercel.app/api/pin/?username=bochainwu&amp;#x26;repo=ball-app&quot; alt=&quot;Readme Card&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;立flag🎌&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;多運動&lt;/li&gt;
+&lt;li&gt;多花一些時間在課業上&lt;/li&gt;
+&lt;li&gt;可以過得更快樂一點&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[New Beginning - 一個新的開始]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://bochainwu.github.io/new-beginnings/</link><guid isPermaLink="false">https://bochainwu.github.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
