@@ -23,8 +23,8 @@
   --spacing-8: 2rem;
   --spacing-10: 2.5rem;
   --spacing-12: 3rem;
-  --spacing-16: 4rem;
-  --spacing-20: 5rem;
+  --spacing-16: 1rem;
+  --spacing-20: 2rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
   --fontFamily-sans: "Ubuntu", system-ui, -apple-system,
@@ -83,7 +83,7 @@ body {
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
-  text-align: center;
+  
 }
 
 hr {
@@ -295,6 +295,7 @@ a:focus {
   display: inline-block;
   font-size: 17px;
   padding-left: 10px;
+  padding-top: 7%;
 
 }
 
@@ -306,6 +307,10 @@ a:focus {
   height: fit-content;
 
   border-radius: 10%;
+}
+
+.social a{
+  padding: 10px;
 }
 
 .blog-post header h1 {

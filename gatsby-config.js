@@ -20,7 +20,8 @@ module.exports = {
     social: {
       twitter: `bochianwu`,
       instagram: `_bochain_`,
-      github: `bochainwu`
+      github: `bochainwu`,
+      email: `bochainwu@gmail.com`
     },
   },
   plugins: [
