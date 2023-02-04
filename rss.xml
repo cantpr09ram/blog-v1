@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Bochain's blog.]]></description><link>https://bochainwu.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 03 Feb 2023 06:17:19 GMT</lastBuildDate><item><title><![CDATA[2022 Review]]></title><description><![CDATA[…]]></description><link>https://bochainwu.github.io/2022 review/</link><guid isPermaLink="false">https://bochainwu.github.io/2022 review/</guid><pubDate>Sat, 28 Jan 2023 22:25:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Bochain's blog.]]></description><link>https://bochainwu.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 04 Feb 2023 01:42:12 GMT</lastBuildDate><item><title><![CDATA[2022 Review]]></title><description><![CDATA[…]]></description><link>https://bochainwu.github.io/2022 review/</link><guid isPermaLink="false">https://bochainwu.github.io/2022 review/</guid><pubDate>Sat, 28 Jan 2023 22:25:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
@@ -29,13 +29,13 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;我上大學啦😀!&lt;/h3&gt;
+&lt;h3&gt;我上大學啦 😀!&lt;/h3&gt;
 &lt;p&gt;雖然說我也不知道有什麼特別的地方。但是我感覺好像沒有特別的認真在讀書(而且沒有在學什麼其他的東西)😀。
-我真的不知道在搞什麼，明明成績不是最好的，但是卻要上最多的課🤔。下學期應該要開始卷了🤫(最好是)
+我真的不知道在搞什麼，明明成績不是最好的，但是卻要上最多的課 🤔。下學期應該要開始卷了 🤫(最好是)
 &lt;br&gt;&lt;/br&gt;
 程式方面就別說了，基本上除了寫學校的指派的作業其他的我幾乎都沒碰。一開始是因為電腦不行，後來就是懶了&lt;/p&gt;
 &lt;h3&gt;自己組了一台電腦&lt;/h3&gt;
-&lt;p&gt;我自己組了一台電腦，本來想買台 macbook air (垃圾蘋果真香🙃)，但是後來發現電機系好像離不開 windows  所以就自己組了一台。雙十一買了幾乎所有零件，沒想到組到一半翻車😨，CPU散熱器沒裝好所以散熱膏流到針腳的地方，好在有保固。簡單來說，一個有趣的經驗，學到很多知識，但是如果要無償幫別人組的話就要好好地考慮了。
+&lt;p&gt;我自己組了一台電腦，本來想買台 macbook air (垃圾蘋果真香 🙃)，但是後來發現電機系好像離不開 windows 所以就自己組了一台。雙十一買了幾乎所有零件，沒想到組到一半翻車 😨，CPU 散熱器沒裝好所以散熱膏流到針腳的地方，好在有保固。簡單來說，一個有趣的經驗，學到很多知識，但是如果要無償幫別人組的話就要好好地考慮了。
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
@@ -70,13 +70,13 @@
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Devfest2022 Taipei&lt;/h3&gt;
-&lt;p&gt;這是我第一次參加這種活動，以前就很想參加類似的活動但是都沒有機會，這次總算參加到了。過程中認識了幾個有趣的人，還有跟google的工程師請教了一下，雖然說是一個無關緊要的問題，但是還是一個不同的體驗。&lt;/p&gt;
+&lt;p&gt;這是我第一次參加這種活動，以前就很想參加類似的活動但是都沒有機會，這次總算參加到了。過程中認識了幾個有趣的人，還有跟 google 的工程師請教了一下，雖然說是一個無關緊要的問題，但是還是一個不同的體驗。&lt;/p&gt;
 &lt;h3&gt;自己建立了一個小專案&lt;/h3&gt;
-&lt;p&gt;今年的上半年，(也就是我的高三下)我把我大部分的時間透入這個side project。這是一個 web app，可以把學校的球具借還時資料的填寫線上化。本來會有個同學一起完成，但是後來他不想做了，所以我自己一個人學 HTML,CSS 後我就面臨沒有人開發後端的困境，還好我發現 Firebase，所以我就自己一個人慢慢摸索，最終我還是做了一個可以用的東西出來
+&lt;p&gt;今年的上半年，(也就是我的高三下)我把我大部分的時間透入這個 side project。這是一個 web app，可以把學校的球具借還時資料的填寫線上化。本來會有個同學一起完成，但是後來他不想做了，所以我自己一個人學 HTML,CSS 後我就面臨沒有人開發後端的困境，還好我發現 Firebase，所以我就自己一個人慢慢摸索，最終我還是做了一個可以用的東西出來
 &lt;br&gt;&lt;/br&gt;
-雖然說這個東西還有很多東西可以優化，不管是技術面程式碼的優化，還是UI/UX方面都是有很大的進步空間，但是至少證明我可以利用程式做一個有用的東西出來
+雖然說這個東西還有很多東西可以優化，不管是技術面程式碼的優化，還是 UI/UX 方面都是有很大的進步空間，但是至少證明我可以利用程式做一個有用的東西出來
 &lt;br&gt;&lt;/br&gt;&lt;a href=&quot;https://github.com/bochainwu/ball-app&quot;&gt;&lt;img src=&quot;https://github-readme-stats.vercel.app/api/pin/?username=bochainwu&amp;#x26;repo=ball-app&quot; alt=&quot;Readme Card&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;立flag🎌&lt;/h3&gt;
+&lt;h3&gt;立 flag🎌&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;多運動&lt;/li&gt;
 &lt;li&gt;多花一些時間在課業上&lt;/li&gt;
@@ -406,4 +406,4 @@ __double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;hello world&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;hello world&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hello world&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
