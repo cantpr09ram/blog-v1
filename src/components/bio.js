@@ -31,13 +31,13 @@ const Bio = () => {
   console.log(data)
   const author = data.site.siteMetadata?.author
   const social = data.site.siteMetadata?.social
-  const iconsize = 30;
+  const iconsize = 30
   return (
     <>
-      <div 
+      <div
         className="bio"
         style={{
-          marginbottom:`20px`
+          marginbottom: `20px`,
         }}
       >
         <StaticImage
@@ -46,38 +46,53 @@ const Bio = () => {
           alt="Profile picture"
         />
         {author?.name && (
-          <p>Hello  My name is <strong>{author.name}</strong>. I am  {author?.summary || null}</p>     
+          <p>
+            Hello My name is <strong>{author.name}</strong>. I am{" "}
+            {author?.summary || null}
+          </p>
         )}
       </div>
       <div
         className="social"
         style={{
-          textAlign:`center`
+          textAlign: `center`,
         }}
+      >
+        <a
+          className="social"
+          href={`https://twitter.com/${social?.twitter || ``}`}
         >
-        <a className="social" href={`https://twitter.com/${social?.twitter || ``}`}>
           <StaticImage
             src="../images/twitter.png"
             width={iconsize}
             height={iconsize}
           />
         </a>
-        <a className="social" href={`https://instagram.com/${social?.instagram || `_bochain_`}`}>
+        <a
+          className="social"
+          href={`https://instagram.com/${social?.instagram || `_bochain_`}`}
+        >
           <StaticImage
             src="../images/instagram.png"
             width={iconsize}
             height={iconsize}
           />
         </a>
-        <a className="social" href={`https://github.com/${social?.twitter || ``}`}>
+        <a
+          className="social"
+          href={`https://github.com/${social?.twitter || ``}`}
+        >
           <StaticImage
             src="../images/github.png"
             width={iconsize}
             height={iconsize}
           />
         </a>
-        <a className="social" href={`mailto:${social?.mail||`bochainwu@gmail.com`}`}>
-        <StaticImage
+        <a
+          className="social"
+          href={`mailto:${social?.mail || `bochainwu@gmail.com`}`}
+        >
+          <StaticImage
             src="../images/email.png"
             width={iconsize}
             height={iconsize}

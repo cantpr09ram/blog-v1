@@ -13,7 +13,7 @@ module.exports = {
     author: {
       name: `Bo-chain`,
       summary: `a uni student who lives, study and works in taipei. learning how to build some useful things.`,
-      age: 19
+      age: 19,
     },
     description: `Bochain's blog.`,
     siteUrl: `https://bochainwu.github.io/`,
@@ -21,7 +21,7 @@ module.exports = {
       twitter: `bochianwu`,
       instagram: `_bochain_`,
       github: `bochainwu`,
-      email: `bochainwu@gmail.com`
+      email: `bochainwu@gmail.com`,
     },
   },
   plugins: [
