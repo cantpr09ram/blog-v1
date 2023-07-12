@@ -16,7 +16,7 @@ module.exports = {
       age: 19,
     },
     description: `Bochain's blog.`,
-    siteUrl: `https://bochainwu.github.io/`,
+    siteUrl: `https://cantpr09ram.github.io/`,
     social: {
       twitter: `bochianwu`,
       instagram: `_bochain_`,
