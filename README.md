@@ -98,4 +98,4 @@ Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby f
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-[![pages-build-deployment](https://github.com/bochainwu/bochainwu.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bochainwu/bochainwu.github.io/actions/workflows/pages/pages-build-deployment)
+[![Deploy Gatsby site to Pages](https://github.com/cantpr09ram/cantpr09ram.github.io/actions/workflows/gatsby.yml/badge.svg)](https://github.com/cantpr09ram/cantpr09ram.github.io/actions/workflows/gatsby.yml)
