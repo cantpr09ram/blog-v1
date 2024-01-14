@@ -37,7 +37,7 @@ const Seo = ({ description, title, children }) => {
       <meta property="og:type" content="website" />
       <meta name="og:image" content="../images/seo.jpg"></meta>
       <meta name="twitter:image" content="../images/seo.jpg"></meta>
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:creator"
         content={site.siteMetadata?.social?.twitter || ``}
