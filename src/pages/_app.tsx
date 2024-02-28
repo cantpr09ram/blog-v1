@@ -1,5 +1,6 @@
 import '@/styles/globals.css';
-
+import '@/styles/prism-plus.css'
+import '@/styles/prism-solarized-dark-atom.css'
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { ThemeProvider } from 'next-themes';
