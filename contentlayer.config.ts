@@ -1,4 +1,6 @@
 import { defineDocumentType, makeSource } from './src/lib/contentLayerAdapter';
+import rehypePrism from 'rehype-prism-plus';
+import rehypeCodeTitles from 'rehype-code-titles';
 
 export const Post = defineDocumentType(() => ({
   name: 'Post',
@@ -35,4 +37,7 @@ export const Post = defineDocumentType(() => ({
 export default makeSource({
   contentDirPath: 'content',
   documentTypes: [Post],
+  mdx: { 
+    rehypePlugins: [rehypeCodeTitles, [rehypePrism, { ignoreMissing: true }]],
+   },
 });
