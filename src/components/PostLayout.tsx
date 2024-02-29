@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import CustomLink from '@/components/CustomLink';
 import PageTitle from '@/components/PageTitle';
 import PostBody from '@/components/PostBody';
-import formatDate from '@/lib/formateDate';
+//import formatDate from '@/lib/formateDate';
 
 export interface PostForPostLayout {
   date: string;
@@ -22,6 +22,13 @@ type Props = {
   children: React.ReactNode;
 };
 
+const postDateTemplate: Intl.DateTimeFormatOptions = {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+}
+
 export default function PostLayout({
   post,
   nextPost,
@@ -37,18 +44,20 @@ export default function PostLayout({
       <div className="divide-y divide-gray-200 transition-colors dark:divide-gray-700">
         <header className="py-6">
           <div className="space-y-1 text-center">
-            <div className="mb-4">
-              <PageTitle>{title}</PageTitle>
-            </div>
-
             <dl className="space-y-10">
               <div>
                 <dt className="sr-only">發佈時間</dt>
                 <dd className="text-base font-medium leading-6 text-gray-500 transition-colors dark:text-gray-400">
-                  <time dateTime={date}>{formatDate(date, locale)}</time>
+                  <time dateTime={date}>
+                    {new Date(date).toLocaleDateString(locale, postDateTemplate)}
+                  </time>
                 </dd>
               </div>
             </dl>
+
+            <div className="mb-4">
+              <PageTitle>{title}</PageTitle>
+            </div>
           </div>
         </header>
 
