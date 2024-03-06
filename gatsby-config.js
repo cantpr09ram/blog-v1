@@ -17,8 +17,8 @@ module.exports = {
     },
     description: `Cantpr09ram's blog.`,
     twitterUsername: `@gatsbyjs`,
-    image: `/src/images/og-image.png`,
-    siteUrl: `https://cantpr09ram.github.io/`,
+    image: `/og-image.png`,
+    siteUrl: `https://cantpr09ram.github.io`,
     social: {
       twitter: `cantpr09ram`,
       instagram: `_bochain_`,

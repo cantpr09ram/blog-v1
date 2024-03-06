@@ -7,9 +7,11 @@
 
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { useSiteMetadata } from "../hooks/use-site-metadata"
 
-const Seo = ({ title, description, img, children }) => {
+const Seo = ({ title, description, img, children, pathname}) => {
 
+  const { title: defaultTitle, description: defaultDescription, image, siteUrl, twitterUsername } = useSiteMetadata()
   
   const { site } = useStaticQuery(
     graphql`
@@ -27,26 +29,32 @@ const Seo = ({ title, description, img, children }) => {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const seo = {
+    title: title || site.siteMetadata?.title,
+    description: description || site.siteMetadata.description,
+    image: `${siteUrl}${image}` || img, 
+    url: `${siteUrl}${pathname || ``}`,
+    twitterUsername,
+  }
 
   return (
     <>
-      <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
-      <meta name="description" content={metaDescription} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={metaDescription} />
+      <title>{seo.title}</title>
+      <meta name="description" content={seo.description} />
+      <meta property="og:title" content={seo.title} />
+      <meta property="og:description" content={seo.description} />
       <meta property="og:type" content="blog" />
       <meta property="og:url" content="https://cantpr09ram.github.io/" />
-      <meta name="og:image" content={img}></meta>
+      <meta name="og:image" content={seo.image}></meta>
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:creator"
-        content={site.siteMetadata?.social?.twitter || ``}
+        content={seo.twitterUsername}
       />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={metaDescription} />
-      <meta name="twitter:image" content="src/images/og-image.png"></meta>
+      <meta name="twitter:title" content={seo.title} />
+      <meta name="twitter:url" content={seo.url} />
+      <meta name="twitter:description" content={seo.description} />
+      <meta name="twitter:image" content={seo.image} />
       {children}
     </>
   )
