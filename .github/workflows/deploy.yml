@@ -31,7 +31,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-    
+        
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          
       - name: install pnpm
         uses: pnpm/action-setup@v2
         id: pnpm-install
@@ -42,15 +47,15 @@ jobs:
       - name: Get pnpm store directory
         shell: bash
         run: |
-          echo "STORE_PATH=$(pnpm store path | tr -d '\n')" >> $GITHUB_OUTPUT
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
       
-      - name: Setup pnpm cache
-        uses: actions/cache@v4
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
         with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-cache-pnpm-modules-${{ hashFiles('examples/basic-pnpm/pnpm-lock.yaml') }}
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-              ${{ runner.os }}-cache-pnpm-modules-
+            ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
         run: pnpm install
