@@ -48,9 +48,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('examples/basic-pnpm/pnpm-lock.yaml') }}
+          key: ${{ runner.os }}-cache-pnpm-modules-${{ hashFiles('examples/basic-pnpm/pnpm-lock.yaml') }}
           restore-keys: |
-              ${{ runner.os }}-pnpm-store-
+              ${{ runner.os }}-cache-pnpm-modules-
 
       - name: Install dependencies
         run: pnpm install
