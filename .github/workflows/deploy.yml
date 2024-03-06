@@ -46,6 +46,14 @@ jobs:
         with:
           version: 8
           run_install: true
+      
+      - name: Setup pnpm cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('examples/basic-pnpm/pnpm-lock.yaml') }}
+          restore-keys: |
+              ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
         run: pnpm install
