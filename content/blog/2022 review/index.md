@@ -2,6 +2,10 @@
 title: 2022 Review
 date: "2023-01-28T22:25:03.284Z"
 description: "2022 Review"
+hero_image: "../../../src/images/og-image.png"
+hero_image_alt: "blog banner"
+hero_image_credit_text: "me"
+hero_image_credit_link: "https://cantpr09ram.github.io"
 ---
 
 ![2022_review](./2022_review.jpg)

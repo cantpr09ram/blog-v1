@@ -2,6 +2,10 @@
 title: Hello World
 date: "2015-05-01T22:12:03.284Z"
 description: "Hello World"
+hero_image: "../../../src/images/og-image.png"
+hero_image_alt: "blog banner"
+hero_image_credit_text: "me"
+hero_image_credit_link: "https://cantpr09ram.github.io"
 ---
 
 This is my first post on my new fake blog! How exciting!

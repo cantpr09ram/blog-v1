@@ -1,6 +1,10 @@
 ---
 title: My Second Post!
 date: "2015-05-06T23:46:37.121Z"
+hero_image: "../../../src/images/og-image.png"
+hero_image_alt: "blog banner"
+hero_image_credit_text: "me"
+hero_image_credit_link: "https://cantpr09ram.github.io"
 ---
 
 Wow! I love blogging so much already.

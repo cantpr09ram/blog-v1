@@ -2,6 +2,10 @@
 title: 2023 Review
 date: "2024-01-15T22:25:03.284Z"
 description: "我也不知道自己在幹嘛的一年"
+hero_image: "../../../src/images/og-image.png"
+hero_image_alt: "blog banner"
+hero_image_credit_text: "me"
+hero_image_credit_link: "https://cantpr09ram.github.io"
 ---
 # 我的2023
 ![2023](./imgs/2023.jpg)<br>

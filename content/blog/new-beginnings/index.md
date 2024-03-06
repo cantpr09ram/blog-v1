@@ -2,6 +2,10 @@
 title: New Beginning - 一個新的開始
 date: "2015-05-28T22:40:32.169Z"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+hero_image: "../../../src/images/og-image.png"
+hero_image_alt: "blog banner"
+hero_image_credit_text: "me"
+hero_image_credit_link: "https://cantpr09ram.github.io"
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
