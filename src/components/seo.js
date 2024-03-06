@@ -34,8 +34,9 @@ const Seo = ({ description, title, children }) => {
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
-      <meta property="og:type" content="website" />
-      <meta name="og:image" content="src/images/seo.jpg"></meta>
+      <meta property="og:type" content="blog" />
+      <meta property="og:url" content="https://cantpr09ram.github.io/" />
+      <meta name="og:image" content="src/images/og-image.png"></meta>
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:creator"
@@ -43,7 +44,7 @@ const Seo = ({ description, title, children }) => {
       />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
-      <meta name="twitter:image" content="src/images/seo.jpg"></meta>
+      <meta name="twitter:image" content="src/images/og-image.png"></meta>
       {children}
     </>
   )

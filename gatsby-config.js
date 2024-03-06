@@ -16,6 +16,8 @@ module.exports = {
       age: 19,
     },
     description: `Cantpr09ram's blog.`,
+    twitterUsername: `@gatsbyjs`,
+    image: `/src/images/og-image.png`,
     siteUrl: `https://cantpr09ram.github.io/`,
     social: {
       twitter: `cantpr09ram`,
