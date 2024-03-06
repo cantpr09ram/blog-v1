@@ -2,6 +2,10 @@ import { withContentlayer } from 'next-contentlayer';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = withContentlayer({
+  
+  basePath: "/",
+  output: 'export',
+
   reactStrictMode: true,
   swcMinify: true,
   // 加入以下 custom webpack 設定
@@ -24,6 +28,23 @@ const nextConfig = withContentlayer({
     // Dangerously allow production builds to successfully complete even if
     // your project has type errors.
     ignoreBuildErrors: true,
+  },
+  /**
+   * Set base path. This is the slug of your GitHub repository.
+   *
+   * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
+   */
+  basePath: "/cantpr09ram.github.io",
+  /**
+   * Disable server-based image optimization. Next.js does not support
+   * dynamic features with static exports.
+   *
+   * @see https://nextjs.org/docs/app/api-reference/components/image#unoptimized
+   */
+  images: {
+    // Enable modern image formats
+    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
   },
 });
 

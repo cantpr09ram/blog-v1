@@ -23,7 +23,7 @@ export default function Footer() {
           <SocialIcon kind="twitter" href={footerConfigs.socialLink.twitter} />
         </div>
         <div className="mb-8 flex space-x-2 text-sm text-gray-500 transition-colors dark:text-gray-400">
-          <div>{`Copyright © 2015 - ${new Date().getFullYear()}`}</div>
+          <div>{`Copyright © 2023 - ${new Date().getFullYear()}`}</div>
           <CustomLink href="/">{footerConfigs.credot}</CustomLink>
         </div>
       </div>
