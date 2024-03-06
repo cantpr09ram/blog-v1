@@ -32,11 +32,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Set up Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          
       - name: install pnpm
         uses: pnpm/action-setup@v2
         id: pnpm-install
@@ -44,23 +39,24 @@ jobs:
           version: 8
           run_install: true
       
-      - name: Get pnpm store directory
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-      
-      
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: pnpm
 
       - name: Install dependencies
         run: pnpm install
 
       - name: Build with Next.js
-        run: pnpm build 
+        run: |
+          npm run build
+          touch out/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./dist
 
   # Deployment job
   deploy:
