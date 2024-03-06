@@ -28,6 +28,7 @@ const Seo = ({ title, description, img, children, pathname}) => {
       }
     `
   )
+  console.log(description);
 
   const seo = {
     title: title || site.siteMetadata?.title,

@@ -65,7 +65,7 @@ export const Head = ({ data: { markdownRemark: post } }) => {
     <Seo
       title={post.frontmatter.title}
       description={post.frontmatter.description || post.excerpt}
-      img={post.frontmatter.hero_image.gatsbyImageData}
+      img={post.frontmatter.hero_image.childImageShrap}
     />
   )
 }
